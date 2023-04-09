@@ -1,7 +1,12 @@
 <h2>Hi there, I'm Rob! 👋</h2>
 <p><em>Senior Software Enginner @<a href="https://www.biositesystems.com/">Biosite Systems</a></em>🖥️</p>
 
-### ⬇️ A bit about me...  
+<span>
+  <img float="left" width="48%" alt="🦑" src="about.svg">
+  <img float="right" width="48%" alt="🦑" src="commit-calendar.svg ">
+</span>
+
+### ⬇️ A bit about me... </h3>
 
 ```javascript
 const rob = {
@@ -26,19 +31,4 @@ const rob = {
   goal: "To become a Tech Lead working on code which truly makes a difference.",
 }
 ```
-
-
-<!--
-**r-ggraham/r-ggraham** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</p>
