@@ -2,33 +2,40 @@
 <p><em>Senior Software Enginner @<a href="https://www.biositesystems.com/">Biosite Systems</a></em>🖥️</p>
 
 <span>
-  <img float="left" width="48%" alt="🦑" src="about.svg">
-  <img float="right" width="48%" alt="🦑" src="commit-calendar.svg ">
+  <a href="#"><img float="left" width="48%" alt="🦑" src="about.svg"></a>
+  <a href="#"><img float="right" width="48%" alt="🦑" src="commit-calendar.svg "></a>
 </span>
 
 ### ⬇️ A bit about me... </h3>
 
-```javascript
-const rob = {
-  workspace: {
-    location: "remote",
-    platform: "linux",
-    distro: "KDE Neon",
-    equipment: "fingers",
-  },
+```cpp
+class Rob : public Human {
+  public:
+    Rob();
 
-  code: [C++, TypeScript, SCSS, PostgreSQL, Python],
-  libs: [Boost, Qt5, React, Angular],
-  tools: [CMake, Cypress, Git, Docker],
-  skills: ["architecture", "agile", "engineering", "test-driven development", "communication", "mentoring"],
+    struct Workspace {
+      string location { "remote" };
+      string platform { "linux" };
+      string distro { "KDE Neon" };
+      string equipment { "fingers" };
+    } workspace;
 
-  personal: {
-    cats: 2,
-    coffee: decaf,
-    hobbies: ["boxing", "cooking", "music", "mental health advocacy"],
-  },
+    vector<Language_Type> languages { C, CPP, TypeScript, SCSS, PSQL, Python };
+    vector<string> libs { "Boost", "Qt5", "React", "Angular" };
+    vector<Program> tools { {"CMake"}, {"Cypress"}, {"Git"}, {"Docker"}, {"VSCode"} };
+    vector<string> skills { "engineer", "architect",  "TDD", "agile", "communicate", "mentor" };
 
-  goal: "To become a Tech Lead working on code which truly makes a difference.",
-}
+    static constexpr const char* goal { "Become a Tech Lead working on code which makes a difference." };
+
+  private:
+    struct Personal_Info {
+      int cat_count { 2 };
+      array<string, 2> cat_names { "Alphinaud", "Alisaie" };
+      Coffee_Style coffee { Decaf };
+      array<string, 5> drinks { "water", "tea", "coffee", "whisky", "beer" };
+      vector<string> food { "yes" };
+      vector<string> hobbies { "boxing", "cooking", "music", "mental health advocacy" };
+    } m_information;
+};
 ```
 </p>
