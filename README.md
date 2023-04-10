@@ -2,8 +2,8 @@
 <p><em>Senior Software Enginner @<a href="https://www.biositesystems.com/">Biosite Systems</a></em>🖥️</p>
 
 <span>
-  <a href="#"><img float="left" width="48%" alt="🦑" src="about.svg"></a>
-  <a href="#"><img float="right" width="48%" alt="🦑" src="commit-calendar.svg "></a>
+  <a href="#"><img float="left" min-width="320px" width="48%" alt="🦑" src="about.svg"></a>
+  <a href="#"><img float="right" min-width="320px" width="48%" alt="🦑" src="commit-calendar.svg "></a>
 </span>
 
 ### ⬇️ A bit about me... </h3>
