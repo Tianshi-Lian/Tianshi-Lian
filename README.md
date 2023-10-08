@@ -1,4 +1,4 @@
-<h2>Hi there, I'm Rob! 👋</h2>
+<h2>Hi there, I'm Tianshi/Rob! 👋</h2>
 <p><em>C++ Application Developer @<a href="https://www.vicon.com/">Vicon Motion Systems Ltd</a></em>🖥️<br>
 Currently working on <a href="https://www.vicon.com/software/shogun/">Shogun Live</a> motion capture software<p>
 
@@ -16,14 +16,14 @@ class Rob : public Human {
 
     struct Workspace {
       string location { "remote" };
-      string platform { "linux" };
-      string distro { "KDE Neon" };
+      string platform { "windows" };
+      string distro { "win11" };
       string equipment { "fingers" };
     } workspace;
 
-    vector<Language_Type> languages { C, CPP, TypeScript, SCSS, PSQL, Python };
-    vector<string> libs { "Boost", "Qt5", "React", "Angular" };
-    vector<Program> tools { {"CMake"}, {"Cypress"}, {"Git"}, {"Docker"}, {"VSCode"} };
+    vector<Language_Type> languages { C, CPP, QML, Python, TypeScript, PSQL };
+    vector<string> libs { "Boost", "Qt6", "React", "Angular" };
+    vector<Program> tools { {"CMake"}, {"Mercurial"}, {"Git"}, {"Visual Studio"}, {"VSCode"} };
     vector<string> skills { "engineer", "architect",  "TDD", "agile", "communicate", "mentor" };
 
     static constexpr const char* goal { "Become a Tech Lead working on code which makes a difference." };
@@ -35,7 +35,7 @@ class Rob : public Human {
       Coffee_Style coffee { Decaf };
       array<string, 5> drinks { "water", "tea", "coffee", "whisky", "beer" };
       vector<string> food { "yes" };
-      vector<string> hobbies { "boxing", "cooking", "music", "mental health advocacy" };
+      vector<string> hobbies { "archery", "boxing", "cooking", "music", "mental health advocacy" };
     } m_information;
 };
 ```
