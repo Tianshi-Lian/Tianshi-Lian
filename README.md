@@ -1,5 +1,5 @@
 <h2>Hi there, I'm Tianshi/Rob! 👋</h2>
-<p><em>C++ Application Developer @<a href="https://www.vicon.com/">Vicon Motion Systems Ltd</a></em>🖥️<br>
+<p><em>C++ Application Developer @<a href="https://www.vicon.com/">Vicon Motion Systems Ltd</a></em>🖥️<br><br>
 
 <span>
   <a href="#"><img float="left" width="380px" alt="🦑" src="about.svg"></a>
