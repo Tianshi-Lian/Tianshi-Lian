@@ -17,7 +17,7 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           filename: about.svg
-          user: Tianshi-Lian
+          user: Lotus-Rob
           template: classic
           base: header, activity, community, repositories
           base_indepth: yes
