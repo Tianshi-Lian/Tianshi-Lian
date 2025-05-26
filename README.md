@@ -15,14 +15,14 @@ class Rob : public Human {
 
     struct Workspace {
       string location { "remote" };
-      string platform { "windows" };
-      string distro { "win11" };
+      string platform { "linux" };
+      string distro { "cachyos" };
       string equipment { "fingers" };
     } workspace;
 
-    vector<Language_Type> languages { C, CPP, QML, Python, TypeScript, PSQL };
-    vector<string> libs { "Boost", "Qt6", "React", "Angular" };
-    vector<Program> tools { {"CMake"}, {"Mercurial"}, {"Git"}, {"Visual Studio"}, {"VSCode"} };
+    vector<Language_Type> languages { Odin, CPP, QML, Python, Go };
+    vector<string> libs { "Raylib", "SDL3", "Boost", "Qt6" };
+    vector<Program> tools { {"Codium"}, {"Ghostty"}, {"Fish"}, {"CMake"}, {"Git"}, {"Visual Studio"} };
     vector<string> skills { "engineer", "architect",  "TDD", "agile", "communicate", "mentor" };
 
     static constexpr const char* goal { "Become a Tech Lead working on code which makes a difference." };
