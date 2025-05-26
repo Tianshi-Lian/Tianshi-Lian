@@ -1,4 +1,4 @@
-<h2>Hi there, I'm Tianshi/Rob! 👋</h2>
+<h2>Hi there, I'm Lotus/Rob! 👋</h2>
 <p><em>Software Engineer @<a href="https://www.vicon.com/">Vicon Motion Systems Ltd</a></em>🖥️<br><br>
 
 <span>
